@@ -20,7 +20,7 @@ This project involved training a small bipedal robot to learn to walk efficientl
 ## Technical Skills Gained
 
 ### 1. **Deep Reinforcement Learning (DRL) Techniques**
-   - **TD3 Algorithm**: I implemented and fine-tuned the **TD3 (Twin Delayed Deep Deterministic Policy Gradient)** algorithm, which is an extension of DDPG (Deep Deterministic Policy Gradient). TD3 improves stability and performance by using techniques like target policy smoothing, delayed updates, and clipped double Q-learning.
+   - **TD3-FORK Algorithm**: I implemented and fine-tuned the **TD3-FORK (FORK: A Forward-Looking Actor For Model-Free Reinforcement Learning)** algorithm, which is an extension of DDPG (Deep Deterministic Policy Gradient). TD3 improves stability and performance by using techniques like target policy smoothing, delayed updates, and clipped double Q-learning. The paper can be found [here](https://arxiv.org/pdf/2010.01652)
    - **Continuous Action Space**: The **BipedalWalker-v3** and **BipedalWalkerHardcore-v3** environments require the agent to navigate in a **continuous action space**, where the agent selects actions (e.g., joint torques) from a continuous range rather than discrete choices.
    - **Actor-Critic Architecture**: I employed an **actor-critic** approach, where the **actor** determines which actions to take based on the policy, and the **critic** evaluates the chosen actions by estimating the value function.
 
